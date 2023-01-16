@@ -1,7 +1,7 @@
 {
-  "author": "Paul Vorbach <paul@vorb.de> (http://vorb.de)",
-  "name": "sha1",
-  "description": "native js function for hashing messages with SHA-1",
+  "author": "07akioni",
+  "name": "sha1-browser",
+  "description": "A fork of `sha1` package which removes reference of `Buffer` that may trigger webpack `NodeSourcePlugin` and enlarge your bundle size",
   "tags": [
     "sha1",
     "hash",
@@ -12,18 +12,15 @@
   "version": "1.1.1",
   "repository": {
     "type": "git",
-    "url": "git://github.com/pvorb/node-sha1.git"
+    "url": "https://github.com/07akioni/node-sha1.git"
   },
   "bugs": {
-    "url": "https://github.com/pvorb/node-sha1/issues"
+    "url": "https://github.com/07akioni/node-sha1/issues"
   },
   "license": "BSD-3-Clause",
   "main": "sha1.js",
   "scripts": {
     "test": "mocha"
-  },
-  "engines": {
-    "node": "*"
   },
   "dependencies": {
     "charenc": ">= 0.0.1",
