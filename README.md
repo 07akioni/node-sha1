@@ -1,3 +1,11 @@
+sha1-browser
+
+A fork of `sha1` package which removes reference of `Buffer` that may trigger webpack `NodeSourcePlugin` and enlarge your bundle size.
+
+Input with `Buffer` type is not available.
+
+---
+
 sha1
 ====
 
